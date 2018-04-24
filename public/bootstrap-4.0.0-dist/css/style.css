@@ -1,0 +1,79 @@
+html,body {
+    background-color: #512888;
+    background:url('../../img/bg.jpg') center center no-repeat fixed;
+    height: 100%;
+    background-size:cover;
+}
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding-top: 10px;
+}
+#pageheader{
+    padding-top: 12em;
+}
+#trans{
+   
+    border: 10px ;
+    filter: alpha(opacity=100);
+    opacity: 0.80;
+    
+    text-align: center;
+}
+#title1{
+    display: block;
+    font-size: 2.8em;
+    margin-top: 0.5m;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    text-align:center;
+    font-family: 'Avenir', sans-serif;
+    /* font-weight: bold; */
+}
+#title2{
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    text-align:center;
+    font-family: 'Avenir', sans-serif;
+    /* font-weight: bold; */
+}
+#mission{
+    display: block;
+    background: #512888;
+    filter: alpha(opacity=100);
+    font-size: 1em;
+    color: white;
+    text-align:center;
+    font-family: 'Avenir', sans-serif;
+    opacity: 1;
+    font-weight: bold;
+    /* font-weight: bold; */
+}
+#icons{
+    text-align: center;
+}
+#icons a:link .fab, a:visited .fab {
+    text-align: center;
+    color:white;
+}
+
+#icons .twitter:hover {
+    color: #512888;
+    background: white;
+}
+#icons .facebook:hover {
+    color: #512888;
+    background: white;
+}
+#icons .instagram:hover {
+    color: #512888;
+    background: white;
+}
