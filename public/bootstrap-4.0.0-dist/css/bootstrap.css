@@ -2503,14 +2503,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #512888;
+  border-color: #fff;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #512888;
+  border-color: #fff;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -3946,7 +3946,9 @@ tbody.collapse.show {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
+ 
+  text-align: center;
 }
 
 .navbar > .container,
@@ -4028,7 +4030,7 @@ tbody.collapse.show {
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
-  text-decoration: none;
+  text-decoration: bold;
 }
 
 .navbar-toggler:not(:disabled):not(.disabled) {
@@ -4335,6 +4337,7 @@ tbody.collapse.show {
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
+  
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -4438,9 +4441,14 @@ tbody.collapse.show {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 10px;
   border-radius: 0.25rem;
 }
+/*Added*/
+.img-center {
+  margin:0 auto;
+}
+
 
 .card > hr {
   margin-right: 0;

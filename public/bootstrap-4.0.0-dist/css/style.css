@@ -14,12 +14,11 @@ html,body {
     padding-top: 12em;
 }
 #trans{
-   
     border: 10px ;
-    filter: alpha(opacity=100);
+    filter: alpha(opacity=80);
     opacity: 0.80;
-    
     text-align: center;
+    background: #512888;
 }
 #title1{
     display: block;
@@ -51,29 +50,56 @@ html,body {
     filter: alpha(opacity=100);
     font-size: 1em;
     color: white;
-    text-align:center;
+    text-align: center;
     font-family: 'Avenir', sans-serif;
     opacity: 1;
     font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: .25rem;
+    /* font-weight: bold; */
+}
+#mission2{
+    display: block;
+    background: #fff;
+    filter: alpha(opacity=100);
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-family: 'Avenir', sans-serif;
+    opacity: 1;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: .25rem;
     /* font-weight: bold; */
 }
 #icons{
-    text-align: center;
+    margin:15px;
+    
 }
 #icons a:link .fab, a:visited .fab {
-    text-align: center;
     color:white;
+    text-align: center;
 }
-
 #icons .twitter:hover {
-    color: #512888;
-    background: white;
+    color: #9b64e2;
 }
 #icons .facebook:hover {
-    color: #512888;
-    background: white;
+    color: #9b64e2;
 }
 #icons .instagram:hover {
-    color: #512888;
-    background: white;
+    color: #9b64e2;
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+ul,ol{
+    text-align: left;
+}
+a{
+    display: inline-block;
 }
